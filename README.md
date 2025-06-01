@@ -60,11 +60,10 @@ brew install ffmpeg
 python youtube_downloader.py
 Sample Flow:
 
-
 Enter YouTube URL: https://youtu.be/example
 
 
-**Choose download type:**
+Choose download type:
 1. Video
 2. Audio only
 Enter 1 or 2: 2
@@ -75,7 +74,7 @@ Enter 1 or 2: 2
 Downloads will be saved to the downloads/ directory.
 
 
-**⚠️ Error Handling**
+⚠️ Error Handling
 
 Invalid YouTube URL → handled with a friendly error
 
@@ -83,7 +82,7 @@ Missing ffmpeg → informs the user if audio conversion fails
 
 Invalid input (e.g. letters or wrong numbers) → prompts the user to try again
 
-**📄 License**
+📄 License
 
 This project is open-source and available under the MIT License.
 
